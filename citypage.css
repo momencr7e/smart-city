@@ -1,0 +1,143 @@
+img {
+  display: block;
+  margin: 0 auto;
+  width: 15%; /* Set the image width to 30% of its container */
+  height: auto; /* Ensures the image scales proportionally when the width is adjusted */
+  border-radius: 50%; /* Makes the image circular */
+}
+h1 {
+  text-align: center; /* Centers the text */
+  font-weight: bold; /* Makes the text bold */
+  font-size: 3.5em; /* Increases the font size */
+}
+body {
+  font-family: 'Arial', sans-serif; /* Sets a clean and modern font */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9; /* Light background for a modern look */
+  color: #333; /* Dark text for readability */
+}
+
+p {
+  text-align: center; /* Centers the paragraph text */
+  font-size: 1.2em; /* Slightly larger font for better readability */
+  line-height: 1.6; /* Adds spacing between lines for better readability */
+  margin: 20px auto;
+  max-width: 800px; /* Limits the width for better layout */
+}
+
+header {
+  background-color: #4CAF50; /* Adds a vibrant green header */
+  color: white; /* White text for contrast */
+  padding: 20px 0;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #007BFF; /* Blue button color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+p {
+  background-color: #ffffff; /* White background for the rectangle */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Adds spacing inside the rectangle */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f4f4f9, #87ceeb); /* Gradient background */
+  background-attachment: fixed; /* Keeps the background fixed during scrolling */
+  background-size: cover; /* Ensures the background covers the entire viewport */
+  color: #333;
+}
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse; /* Removes gaps between table borders */
+  background-color: #ffffff; /* White background for the table */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Ensures rounded corners apply to the entire table */
+}
+
+th, td {
+  padding: 15px;
+  text-align: left; /* Aligns text to the left */
+  border-bottom: 1px solid #ddd; /* Adds a light gray border between rows */
+}
+
+th {
+  background-color: #4CAF50; /* Green background for table headers */
+  color: white; /* White text for contrast */
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light gray background for even rows */
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Slightly darker background on hover */
+}
+h2 {
+  text-align: center; /* Centers the heading */
+  font-size: 2.5em; /* Sets a larger font size */
+  color: #4CAF50; /* Matches the green theme */
+  margin-top: 30px; /* Adds spacing above the heading */
+  margin-bottom: 20px; /* Adds spacing below the heading */
+  font-weight: bold; /* Makes the text bold */
+}
+a {
+  text-decoration: none; /* Removes the underline */
+  color: #000000; /* Matches the green theme */
+  font-weight: bold; /* Makes the text bold */
+  font-size: 1.2em; /* Slightly larger font size */
+  padding: 10px 15px; /* Adds padding for a button-like appearance */
+  border: 2px solid #000800; /* Adds a green border */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+a:hover {
+  background-color: #000000; /* Green background on hover */
+  color: white; /* White text on hover */
+}
+a {
+  display: block;
+  text-align: right; /* Aligns the link text to the right */
+  margin: 20px auto; /* Centers the link itself vertically */
+  width: fit-content; /* Adjusts the width to fit the content */
+}
+p.deci-link {
+  background-color: transparent; /* Removes the white background */
+  border: none; /* Removes the border */
+  box-shadow: none; /* Removes the shadow */
+  padding: 0; /* Removes extra padding */
+}
+footer p {
+  background-color: transparent; /* Removes the white background */
+  border: none; /* Removes the border */
+  box-shadow: none; /* Removes the shadow */
+  padding: 0; /* Removes extra padding */
+  text-align: center; /* Centers the footer text */
+  font-size: 0.9em; /* Slightly smaller font size for footer text */
+  color: #666; /* Subtle gray color for footer text */
+}
